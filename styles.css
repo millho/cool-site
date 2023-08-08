@@ -3,6 +3,11 @@
     padding: 5px;
 } */
 
+body {
+    font-family: 'roboto';
+    margin: 0;
+}
+
 :root {
     --dark: #061130;
     --light: #F4F6F8;
@@ -12,4 +17,66 @@
 
 .d-flex {
     display: flex;
+}
+
+header {
+    background-color: var(--dark);
+    color: var(--light);
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.nav {
+    align-items: center;
+}
+
+.nav a {
+    margin: 1em;
+    color: var(--light);
+    text-decoration: none;
+}
+
+.lets-chat {
+    border-radius: 50em;
+    border: 0;
+    color: var(--click);
+    background-color: var(--click);
+    padding: 1em;
+}
+
+main {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+main section div p:first-child {
+    color: var(--accent);
+}
+
+.hero {
+    padding: 50px;
+}
+
+.spacing {
+    justify-content: space-around;
+}
+
+.middle-main {
+    background-color: var(--light);
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 50px;
+    color: var(--click);
+    margin: 0;
+}
+
+.middle-main a {
+    color: var(--click);
+}
+
+footer {
+    background-color: #e5e9ec;
+    text-align: center;
+    padding: 35px;
 }
