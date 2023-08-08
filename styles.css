@@ -1,0 +1,15 @@
+/* * {
+    outline: 1px dotted purple;
+    padding: 5px;
+} */
+
+:root {
+    --dark: #061130;
+    --light: #F4F6F8;
+    --click: #1C4BC4;
+    --accent: #FAFD61;
+}
+
+.d-flex {
+    display: flex;
+}
